@@ -1,0 +1,124 @@
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Base */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fff0f5;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ff8fab;
+    color: white;
+    padding: 15px 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+/* Links */
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffe5ec;
+}
+
+/* Sections */
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(to right, #ffd6e0, #ffc2d1);
+    color: #333;
+}
+
+/* Floating animation */
+.hero h1 {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+/* Projects */
+.projects {
+    background: #ffe5ec;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Experience */
+.experience {
+    background: #fff0f5;
+}
+
+/* Contact */
+.contact {
+    background: #ff8fab;
+    color: white;
+}
+
+/* Buttons */
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #ff5d8f;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.buttons a:hover {
+    background: #ff2e63;
+}
+
+/* Fade-in animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s ease;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Footer */
+footer {
+    background: #ff8fab;
+    color: white;
+    padding: 20px;
+}
