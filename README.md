@@ -4,7 +4,7 @@
 Welcome to my personal portfolio website!  
 This project reflects my journey as an MCA student, AI enthusiast, and creative developer.
 
-🔗 Live Website: https://your-username.github.io/portfolio/
+🔗 Live Website: https://maha2806.github.io/portfolio/
 
 ---
 
